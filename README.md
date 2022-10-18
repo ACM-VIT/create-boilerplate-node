@@ -52,7 +52,7 @@ A CLI tool which generates boilerplate code for nodejs server applications takin
 - Do not spam
 - Project maintainer's decision on validity of PR is final.
 
-For additional guidelines, refer to [participation rules](https://hacktoberfest.digitalocean.com/details#rules) and [CONTRIBUTION.md](https://github.com/ACM-VIT/create-boilerplate-node/blob/main/CONTRIBUTION.md)
+For additional guidelines, refer to [participation rules](https://hacktoberfest.digitalocean.com/details#rules) and [CONTRIBUTION.md](https://github.com/ACM-VIT/create-boilerplate-node/blob/master/CONTRIBUTION.md)
 
 ---
 
