@@ -79,10 +79,13 @@ This CLI tool can be used to create boilerplate code for common backend framewor
 
 - Go to repository directory.
 - Windows Powershell
-<pre><code> create-boilerplate-node.cmd [Target Directory]</code></pre>
+<pre><code> create-boilerplate-node.cmd [Target Directory] [Boilerplate type}</code></pre>
 
 - Linux/MacOs
-<pre><code> create-boilerplate-node [Target Directory]</code></pre>
+<pre><code> create-boilerplate-node [Target Directory] [Boilerplate type]</code></pre>
+
+For example if you would want to create boilerplate code at ./test directory with jwt authentication with express mongoose and mvc architecture, you will use:
+<pre><code> create-boilerplate-node ./test jwt-mongoose-mvc</code></pre>
 
 ---
 ## Authors
