@@ -12,6 +12,12 @@ if (!dir)
 
 fs.mkdirSync(dir, { recursive: true }, (err) => {});
 
-fs.copy(path.join(__dirname, "jwt-mongoose-mvc"), dir)
+fs.copy(path.join(__dirname, process.argv[3]), dir)
   .then(() => console.log("Boilerplate generated succesfully!"))
-  .catch((err) => console.error(err));  
+  .catch((err) => {
+    if (err.message.slice(0, 6) == "ENOENT") {
+      console.log("Incorrect boilerplate type entered!");
+    } else {
+      console.error(err);
+    }
+  });
