@@ -85,7 +85,7 @@ This CLI tool can be used to create boilerplate code for common backend framewor
 <pre><code> create-boilerplate-node [Target Directory] [Boilerplate type]</code></pre>
 
 For example if you would want to create boilerplate code at ./test directory with jwt authentication with express mongoose and mvc architecture, you will use:
-<pre><code> create-boilerplate-node ./test jwt-mongoose-mvc</code></pre>
+<pre><code> create-boilerplate-node ./test express-mongoose-jwt</code></pre>
 
 ---
 ## Authors
