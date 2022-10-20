@@ -12,6 +12,6 @@ if (!dir)
 
 fs.mkdirSync(dir, { recursive: true }, (err) => {});
 
-fs.copy(path.join(__dirname, "jwt-mongoose-mvc"), dir)
+fs.copy(path.join(__dirname, process.argv[3]), dir)
   .then(() => console.log("Boilerplate generated succesfully!"))
   .catch((err) => console.error(err));  
